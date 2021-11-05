@@ -1,0 +1,9 @@
+package com.company;
+
+import java.io.IOException;
+
+public class SuperClass  {
+    public void start() throws IOException{
+        throw new IOException("Not able to open file");
+    }
+}
